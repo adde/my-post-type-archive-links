@@ -27,7 +27,7 @@ class My_Post_Type_Archive_Link {
 	}  
 	
 	public static function add_meta_box() {  
-		add_meta_box( 'post-type-archives', __('Post Types','my-post-type-archive-links'),array(__CLASS__,'metabox'),'nav-menus' ,'side','low');  
+		add_meta_box( 'post-type-archives', __('Custom Post Types','my-post-type-archive-links'),array(__CLASS__,'metabox'),'nav-menus' ,'side','low');  
 	}
 
 	public static function metabox( ) {  
